@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Emisora Pascual Stereo</title>
+    <link href="./css/bootstrap-material-design.min.css" type="text/css" rel="stylesheet" />
+    <link href="./css/css.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous" />
+    <link href="./css/estilos.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="py-4 text-center">
+            <img class="d-block mx-auto mb-4" src="./img/banner.gif" alt="" width="100%" height="auto">
+            <img class="d-block mx-auto mb-4" src="./img/aire.gif" alt="" width="100%" height="auto">
+            <h2>Radio Pascual Stereo</h2>
+            <p class="lead">
+                Tu emisora Pascualina
+            </p>
+        </div>
+    <div class="row text-center">
+    <div class="col ">
+        <button type="button" class="btn btn-outline-primary" id="play">
+            <i class="fas fa-play-circle"></i>
+
+    </div>
+    <div class="col">
+            <button type="button"class = "btn btn-outline-primary"id="pause">
+                <i class="fas fa-pause-circle"></i> 
+            </div>
+    </div>
+    <!--
+
+    
+    <div class="col">
+            <button type="button" class="btn btn-outline-primary" id="volumenmas">
+                <i class="fas fa-volume-up"></i>
+    
+        </div>
+    
+    </div>
+    -->
+    <div class="row text-center">
+        
+               <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="custom-range" id="myRange">
+          </div>
+        </div>
+     
+    </div> 
+    <!--
+
+    
+    <div class="col">
+        <button type="button" class="btn btn-outline-primary" id="volumenmenos">
+            <i class="fas fa-volume-down"></i>
+    </div>
+    </div>
+-->
+    <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="./img/astronauta.gif" alt="" width="35%" height="auto">
+    </div>
+    <div class="footer">
+            <p>Andres Lastra Corporation &copy; 2019-2022 Master2000® </p>
+          </div>
+    <audio id="emisora">
+        <source src="http://streams.bigfm.de/bigfm-nitroxdeep-128-mp3?usid=0-0-H-A-D-02" type="audio/mpeg" />
+        Su navegador no admite audio HTML5.
+        </audio>    
+   
+    </div>
+
+
+
+    <!--llamado de javascripts-->
+    <script type="text/javascript" src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="./js/popper.js"></script>
+    <script type="text/javascript" src="./js/bootstrap-material-design.js"></script>
+    <script type="text/javascript" src="./js/fastclick.js"></script>
+    <script type="text/javascript" src="./js/gestures.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+</body>
+
+
+</html>
