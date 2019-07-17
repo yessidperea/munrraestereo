@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="co.edu.pascualbravo.emisora" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Andres Lastra</name>
+<widget id="co.edu.munrra.emisora" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>yessid perea cordoba/name>
     <description>
-         App oficial  Pascual estereo
+         App oficial  munrra estereo
     </description>
     <author email="andreslastra310@gmail.com" href="http://pascualbravo.edu.com">
-        Andres Latsra Gil
+        YESSID PEREA CORDOBA
     </author>
     <content src="index.html" />
 <preference name="DisallowOverscroll" value="true" />
